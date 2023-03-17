@@ -1,0 +1,19 @@
+{
+  "name": "kafka-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start:services": "docker-compose up -d",
+    "kafka:create:topic": "docker exec broker kafka-topics --bootstrap-server broker:9092 --create --topic messages",
+    "emit:message": "ts-node src/index.ts",
+    "kafka:consume": "ts-node src/consumer.ts"
+  },
+  "dependencies": {
+    "@types/node": "^18.15.3",
+    "kafkajs": "^2.2.4",
+    "msgpackr": "^1.8.5",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.2"
+  }
+}

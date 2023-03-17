@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<yandex>
+    <users>
+        <default>
+          <access_management>1</access_management>
+        </default>
+    </users>
+</yandex>
