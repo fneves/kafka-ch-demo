@@ -1,4 +1,6 @@
-# This repo contains an example on how to produce JSON messages compressed with msgpack into kafka, and loading them as a CH table using Kafka engine table.
+# MsgPack JSON CH Kafka Engine example
+
+## This repo contains an example on how to produce JSON messages compressed with msgpack into kafka, and loading them as a CH table using Kafka engine table.
 
 ## Dependencies
 
